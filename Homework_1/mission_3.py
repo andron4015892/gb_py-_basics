@@ -1,0 +1,5 @@
+n = int(input("Введите число n = "))
+nn = (f"{n}{n}")
+nnn = (f"{n}{n}{n}")
+n_summa = n + int(nn) + int(nnn)
+print(n_summa)
